@@ -1,0 +1,23 @@
+.switcher {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        width: 90px;
+        margin-right: 5px;
+    }
+
+    &__btn {
+        &_radial {
+            margin-right: 10px;
+        }
+
+        &.active {
+            background-color: yellow;
+        }
+    }
+
+    &__degrees-input {
+        width: 70px;
+    }
+}
